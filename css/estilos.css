@@ -1,0 +1,71 @@
+body{
+    background-color: 0F0E37;
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    position: absolute;
+    width: 15%;
+    transform: translate(280%, 100%);
+}
+.minilogo{
+    margin-left: 5em;
+    width: 100%;
+    margin-top: 3.5em;
+}
+.background {  
+    width: 100%;
+   position: absolute;
+   object-fit:cover;
+}
+
+.socialmedia{
+    padding-top: 4em;
+    padding-right: 4em;
+  }
+  .socialmedia li{
+    list-style-type: none;
+    float: right;
+    padding-right: 1.2em;
+  }
+  .socialmedia img{
+      max-width: 80%;
+      max-height: 80%;
+  }
+.navv{
+ list-style-type: none;
+ 
+}
+.navv li {
+    float: left;
+  }
+  
+.navv li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 3em;
+    padding-left: 2em;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navv li a:hover {
+      color: black;
+  }
+  .navv img{
+      width: 100%;
+    padding-top: 2.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+ .posbuton{
+     color: khaki;
+ }
+  
+
+
+
+
+
