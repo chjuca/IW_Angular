@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./img/pc-1.JPG">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/estilos.css">
   <title>Angular</title>
@@ -12,48 +11,49 @@
 
 <body>
   <header>
-    <div class="container-xxl" style="position:  relative;">
+    <div id="principal"class="container-xxl" style="position:  relative;">
       <img class="background" src="./img/Rectangle 4.png" alt="">
       <img class="rounded mx-auto d-block logo " src="./img/5847ea22cef1014c0b5e4833.png" alt="">
     </div>
     <div class="container-fluid">
       <div class="row">
         <div class="col-1 minilogo">
-          <img src="./img/Mini logo.png" alt="">
+          <a href="#principal"><img src="./img/Mini logo.png" alt="" ></a>  
+          
         </div>
-        <div class="col-7">
+        <div class="col-7 align-self-cente row justify-content-start" style="margin-bottom: 2em;">
           <nav>
-            <ul class="navv">
-              <li><a href="">Qué es</a></li>
-              <li><a href="">Objetivo</a></li>
-              <li><a href="">Características</a></li>
-              <li><a href="">Arquitectura</a></li>
+            <ul class="navv" style="font-size: 1.2em;">
+              <li class="li""><a href="#objetivo">Qué es</a></li>
+              <li><a href="#objetivo">Objetivo</a></li>
+              <li><a href="#caracteristicas">Características</a></li>
+              <li><a href="#ventajas">Ventajas</a></li>
             </ul>
           </nav>
         </div>
-        <div class="col">
-          <ul class="socialmedia">
-            <li>
-              <img src="./img/youtube.png" alt="">
-            </li>
-            <li><img src="./img/Twitter.png" alt=""></li>
-            <li><img src="./img/Github.png" alt=""></li>
+        <div class="col-3">
+          <ul class="socialmedia">    
+            <li> <a href="https://www.youtube.com/angular"><img src="./img/youtube.png" alt="" ></a></li>        
+            <li><a href="https://twitter.com/angular?lang=es"><img src="./img/Twitter.png" alt=""></a></li>
+            <li><a href="https://github.com/angular"><img  src="./img/Github.png" alt=""></a></li>
           </ul>
         </div>
       </div>
     </div>
   </header>
-  <div class="container justify-content-center" style="padding-top: 25%; ">
+
+  <div class="container justify-content-center" style="padding-top: 27%; ">
     <div class="row justify-content-center">
-      <div class="col-2">
+      <div class="col-2.5">
         <h1 style="color: white; font-weight: bold; margin-left: -20px;">ANGULAR</h1>
       </div>
     </div>
     <br>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center " style="padding-top: 1%;">
       <div class="col-2">
-        <button style="background-color: #305DD4; border-radius: 20em; color: #FFF; font-weight: bold; font-size: 1.3em;"
-        type="button" class="btn btn-primary posbuton">GET STARTED</button>
+        <button 
+          style="background-color: #305DD4; border-radius: 20em; color: #FFF; font-weight: bold; font-size: 1.2em;"
+          type="button" class="btn btn-primary posbuton">  <a style="color: #FFF;" href="https://angular.io/docs">GET STARTED</a></button>
       </div>
     </div>
   </div>
@@ -61,14 +61,14 @@
   <div class="container p-5" style="height: 500px;">
     <div class="row">
       <div class="col align-self-center">
-        <h2 style="color: white;">¿Qué es Angular?</h2>
+        <h2 id="quees"style="color: white;">¿Qué es Angular?</h2>
         <p  style="width: 100%; padding: 2%; color: white;">
           Es un framework para aplicaciones web desarrollado en TypeScript, de código abierto,
           mantenido por Google se utiliza para crear y mantener aplicaciones web de una sola página.
         </p>
       </div>
       <div class="col d-flex justify-content-center">
-        <img src="./img/pc-1.png" class="pc-1" alt="">
+        <img id="objetivo" src="./img/pc-1.png" class="pc-1" alt="">
       </div>
     </div>
     <div class="row">
@@ -76,8 +76,8 @@
         <img src="./img/pc-2.png" style="text-align: center;" alt="">
       </div>
       <div class="col align-self-center">
-        <h2 style="color: white;">Objetivo</h2>
-        <p style="width: 100%; padding: 2%; color: white;">
+        <h2  style="color: white;">Objetivo</h2>
+        <p  style="width: 100%; padding: 2%; color: white;">
           Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC),
           en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.
           <br>
@@ -85,12 +85,13 @@
           datos.
           En dichas clases tenemos propiedades (variables) y métodos (funciones a llamar).
         </p>
+        <br id="caracteristicas">
       </div>
     </div>
   </div>
   </div>
 </body>
-<div class="container" style="margin-top: 290px;">
+<div  class="container" style="margin-top: 290px;">
   <h2 class="text-white font-weight-bold">Características</h2>
   <div class="row justify-content-center">
     <div class="col-4">
@@ -151,7 +152,7 @@
     </div>
 
   </div>
-  <div class="container-xxl" style="color: #FFF; padding: 4%; margin-top: 10px;">
+  <div id="ventajas" class="container-xxl" style="color: #FFF; padding: 4%; margin-top: 10px;">
     <h2>Ventajas</h2>
     <p>
       La arquitectura de Angular Js enlaza JavaScript y HTML, el código de ambos ya está sincronizado. Por lo tanto, el
